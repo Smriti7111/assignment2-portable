@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: mysql-service
-  namespace: database  # Add this line
+  namespace: database
 spec:
   selector:
     app: mysql
